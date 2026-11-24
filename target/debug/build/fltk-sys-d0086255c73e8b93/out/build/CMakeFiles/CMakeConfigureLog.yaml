@@ -1,0 +1,1814 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      The system is: Linux - 6.12.107+deb13-amd64 - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /usr/bin/cc 
+      Build flags: -ffunction-sections;-fdata-sections;-fPIC;-m64;-march=x86-64;-w
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/3.31.6/CompilerIdC/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /usr/bin/c++ 
+      Build flags: -ffunction-sections;-fdata-sections;-fPIC;-m64;-march=x86-64;-w
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/3.31.6/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wfTZ69"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wfTZ69"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wfTZ69'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f5b49/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f5b49.dir/build.make CMakeFiles/cmTC_f5b49.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wfTZ69'
+        Building C object CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w    -v -o CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Debian 14.2.0-19) 
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_f5b49.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f5b49.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m64 -march=x86-64 -w -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -o /tmp/ccSeEEFq.s
+        GNU C17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/lib/gcc/x86_64-linux-gnu/14/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: 0051dfc1fa4e89ba97760da93f2546f3
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_f5b49.dir/'
+         as -v -W --64 -o CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o /tmp/ccSeEEFq.s
+        GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_f5b49
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5b49.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/cc
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Debian 14.2.0-19) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'cmTC_f5b49' '-dumpdir' 'cmTC_f5b49.'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMIe17P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f5b49 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 14.2.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMIe17P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f5b49 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.44
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'cmTC_f5b49' '-dumpdir' 'cmTC_f5b49.'
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w   -v -Wl,-v CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o -o cmTC_f5b49
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wfTZ69'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/14/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wfTZ69']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f5b49/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_f5b49.dir/build.make CMakeFiles/cmTC_f5b49.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wfTZ69']
+        ignore line: [Building C object CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w    -v -o CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_f5b49.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.31/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_f5b49.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -m64 -march=x86-64 -w -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -o /tmp/ccSeEEFq.s]
+        ignore line: [GNU C17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: 0051dfc1fa4e89ba97760da93f2546f3]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_f5b49.dir/']
+        ignore line: [ as -v -W --64 -o CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o /tmp/ccSeEEFq.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_f5b49]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f5b49.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'cmTC_f5b49' '-dumpdir' 'cmTC_f5b49.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMIe17P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f5b49 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccMIe17P.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_f5b49] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 14.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccMIe17P.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_f5b49 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_f5b49.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'C': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14] ==> [/usr/lib/gcc/x86_64-linux-gnu/14]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> [/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/14;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-kRgiC6"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-kRgiC6"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-kRgiC6'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_72e07/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_72e07.dir/build.make CMakeFiles/cmTC_72e07.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-kRgiC6'
+        Building CXX object CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w    -v -o CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Debian 14.2.0-19) 
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_72e07.dir/'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_72e07.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -m64 -march=x86-64 -w -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -o /tmp/ccW8EGzR.s
+        GNU C++17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)
+        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/14"
+        ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"
+        ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /usr/include/c++/14
+         /usr/include/x86_64-linux-gnu/c++/14
+         /usr/include/c++/14/backward
+         /usr/lib/gcc/x86_64-linux-gnu/14/include
+         /usr/local/include
+         /usr/include/x86_64-linux-gnu
+         /usr/include
+        End of search list.
+        Compiler executable checksum: a0e1d70a4b6c50c7ed1b3d36dfd3f9a4
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_72e07.dir/'
+         as -v -W --64 -o CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccW8EGzR.s
+        GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_72e07
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72e07.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/usr/bin/c++
+        COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper
+        OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa
+        OFFLOAD_TARGET_DEFAULT=1
+        Target: x86_64-linux-gnu
+        Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c,ada,c++,go,d,fortran,objc,obj-c++,m2,rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Debian 14.2.0-19) 
+        COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/
+        LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'cmTC_72e07' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-dumpdir' 'cmTC_72e07.'
+         /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSGfBmn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_72e07 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        collect2 version 14.2.0
+        /usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSGfBmn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_72e07 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o
+        GNU ld (GNU Binutils for Debian) 2.44
+        COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'cmTC_72e07' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-dumpdir' 'cmTC_72e07.'
+        /usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w   -v -Wl,-v CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_72e07
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-kRgiC6'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/usr/include/c++/14]
+          add: [/usr/include/x86_64-linux-gnu/c++/14]
+          add: [/usr/include/c++/14/backward]
+          add: [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+          add: [/usr/local/include]
+          add: [/usr/include/x86_64-linux-gnu]
+          add: [/usr/include]
+        end of search list found
+        collapse include dir [/usr/include/c++/14] ==> [/usr/include/c++/14]
+        collapse include dir [/usr/include/x86_64-linux-gnu/c++/14] ==> [/usr/include/x86_64-linux-gnu/c++/14]
+        collapse include dir [/usr/include/c++/14/backward] ==> [/usr/include/c++/14/backward]
+        collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/14/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/14/include]
+        collapse include dir [/usr/local/include] ==> [/usr/local/include]
+        collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+        collapse include dir [/usr/include] ==> [/usr/include]
+        implicit include dirs: [/usr/include/c++/14;/usr/include/x86_64-linux-gnu/c++/14;/usr/include/c++/14/backward;/usr/lib/gcc/x86_64-linux-gnu/14/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-kRgiC6']
+        ignore line: []
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_72e07/fast]
+        ignore line: [/usr/bin/gmake  -f CMakeFiles/cmTC_72e07.dir/build.make CMakeFiles/cmTC_72e07.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-kRgiC6']
+        ignore line: [Building CXX object CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w    -v -o CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_72e07.dir/']
+        ignore line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/cc1plus -quiet -v -imultiarch x86_64-linux-gnu -D_GNU_SOURCE /usr/share/cmake-3.31/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_72e07.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -m64 -march=x86-64 -w -version -ffunction-sections -fdata-sections -fPIC -fasynchronous-unwind-tables -o /tmp/ccW8EGzR.s]
+        ignore line: [GNU C++17 (Debian 14.2.0-19) version 14.2.0 (x86_64-linux-gnu)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring duplicate directory "/usr/include/x86_64-linux-gnu/c++/14"]
+        ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed/x86_64-linux-gnu"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/14/../../../../x86_64-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /usr/include/c++/14]
+        ignore line: [ /usr/include/x86_64-linux-gnu/c++/14]
+        ignore line: [ /usr/include/c++/14/backward]
+        ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/14/include]
+        ignore line: [ /usr/local/include]
+        ignore line: [ /usr/include/x86_64-linux-gnu]
+        ignore line: [ /usr/include]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: a0e1d70a4b6c50c7ed1b3d36dfd3f9a4]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_72e07.dir/']
+        ignore line: [ as -v -W --64 -o CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccW8EGzR.s]
+        ignore line: [GNU assembler version 2.44 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.44]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_72e07]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_72e07.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/usr/bin/c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper]
+        ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa]
+        ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+        ignore line: [Target: x86_64-linux-gnu]
+        ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 14.2.0-19' --with-bugurl=file:///usr/share/doc/gcc-14/README.Bugs --enable-languages=c ada c++ go d fortran objc obj-c++ m2 rust --prefix=/usr --with-gcc-major-version-only --program-suffix=-14 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/libexec --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-libstdcxx-backtrace --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --enable-cet --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/reproducible-path/gcc-14-14.2.0/debian/tmp-gcn/usr --enable-offload-defaulted --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-serialization=3]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Debian 14.2.0-19) ]
+        ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/14/:/usr/libexec/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/]
+        ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/14/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/14/../../../:/lib/:/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-ffunction-sections' '-fdata-sections' '-fPIC' '-m64' '-march=x86-64' '-w' '-v' '-o' 'cmTC_72e07' '-foffload-options=-l_GCC_m' '-shared-libgcc' '-dumpdir' 'cmTC_72e07.']
+        link line: [ /usr/libexec/gcc/x86_64-linux-gnu/14/collect2 -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSGfBmn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_72e07 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccSGfBmn.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--build-id] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [--hash-style=gnu] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_72e07] ==> ignore
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib]
+          arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+          arg [-L/lib/../lib] ==> dir [/lib/../lib]
+          arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+          arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+          arg [-L/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..]
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o]
+          arg [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        ignore line: [collect2 version 14.2.0]
+        ignore line: [/usr/bin/ld -plugin /usr/libexec/gcc/x86_64-linux-gnu/14/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-linux-gnu/14/lto-wrapper -plugin-opt=-fresolution=/tmp/ccSGfBmn.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_72e07 /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/14 -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/14/../../.. -v CMakeFiles/cmTC_72e07.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o]
+        linker tool for 'CXX': /usr/bin/ld
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+        collapse obj [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14] ==> [/usr/lib/gcc/x86_64-linux-gnu/14]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../../../lib] ==> [/usr/lib]
+        collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+        collapse library dir [/lib/../lib] ==> [/lib]
+        collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+        collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+        collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/14/../../..] ==> [/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/14/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+        implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/14;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/usr/share/cmake-3.31/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/usr/share/cmake-3.31/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:4 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      GNU ld (GNU Binutils for Debian) 2.44
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:262 (check_include_file)"
+      - "fltk/CMake/setup.cmake:186 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Looking for sys/types.h"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-hgJMqb"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-hgJMqb"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_TYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-hgJMqb'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_b7302/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_b7302.dir/build.make CMakeFiles/cmTC_b7302.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-hgJMqb'
+        Building C object CMakeFiles/cmTC_b7302.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_b7302.dir/CheckIncludeFile.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-hgJMqb/CheckIncludeFile.c
+        Linking C executable cmTC_b7302
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b7302.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_b7302.dir/CheckIncludeFile.c.o -o cmTC_b7302
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-hgJMqb'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:263 (check_include_file)"
+      - "fltk/CMake/setup.cmake:186 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Looking for stdint.h"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-9kqGam"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-9kqGam"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDINT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-9kqGam'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4ddb6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4ddb6.dir/build.make CMakeFiles/cmTC_4ddb6.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-9kqGam'
+        Building C object CMakeFiles/cmTC_4ddb6.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_4ddb6.dir/CheckIncludeFile.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-9kqGam/CheckIncludeFile.c
+        Linking C executable cmTC_4ddb6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ddb6.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_4ddb6.dir/CheckIncludeFile.c.o -o cmTC_4ddb6
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-9kqGam'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFile.cmake:99 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:264 (check_include_file)"
+      - "fltk/CMake/setup.cmake:186 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Looking for stddef.h"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mICmHX"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mICmHX"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDDEF_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mICmHX'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a2521/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a2521.dir/build.make CMakeFiles/cmTC_a2521.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mICmHX'
+        Building C object CMakeFiles/cmTC_a2521.dir/CheckIncludeFile.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_a2521.dir/CheckIncludeFile.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mICmHX/CheckIncludeFile.c
+        Linking C executable cmTC_a2521
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2521.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_a2521.dir/CheckIncludeFile.c.o -o cmTC_a2521
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mICmHX'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "fltk/CMake/setup.cmake:186 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of short"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pW7ie0"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pW7ie0"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_SHORT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pW7ie0'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9966d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9966d.dir/build.make CMakeFiles/cmTC_9966d.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pW7ie0'
+        Building C object CMakeFiles/cmTC_9966d.dir/SIZEOF_SHORT.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_9966d.dir/SIZEOF_SHORT.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pW7ie0/SIZEOF_SHORT.c
+        Linking C executable cmTC_9966d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9966d.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_9966d.dir/SIZEOF_SHORT.c.o -o cmTC_9966d
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pW7ie0'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "fltk/CMake/setup.cmake:187 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of int"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-HAJSFr"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-HAJSFr"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_INT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-HAJSFr'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_af765/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_af765.dir/build.make CMakeFiles/cmTC_af765.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-HAJSFr'
+        Building C object CMakeFiles/cmTC_af765.dir/SIZEOF_INT.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_af765.dir/SIZEOF_INT.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-HAJSFr/SIZEOF_INT.c
+        Linking C executable cmTC_af765
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af765.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_af765.dir/SIZEOF_INT.c.o -o cmTC_af765
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-HAJSFr'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "fltk/CMake/setup.cmake:188 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of long"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-jfU4n7"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-jfU4n7"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SIZEOF_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-jfU4n7'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_53c11/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_53c11.dir/build.make CMakeFiles/cmTC_53c11.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-jfU4n7'
+        Building C object CMakeFiles/cmTC_53c11.dir/SIZEOF_LONG.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_53c11.dir/SIZEOF_LONG.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-jfU4n7/SIZEOF_LONG.c
+        Linking C executable cmTC_53c11
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53c11.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_53c11.dir/SIZEOF_LONG.c.o -o cmTC_53c11
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-jfU4n7'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:156 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckTypeSize.cmake:283 (__check_type_size_impl)"
+      - "fltk/CMake/setup.cmake:189 (CHECK_TYPE_SIZE)"
+      - "fltk/CMakeLists.txt:68 (include)"
+    checks:
+      - "Check size of long long"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mZt7qC"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mZt7qC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_HAVE_LONG_LONG"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mZt7qC'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9f3d5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9f3d5.dir/build.make CMakeFiles/cmTC_9f3d5.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mZt7qC'
+        Building C object CMakeFiles/cmTC_9f3d5.dir/HAVE_LONG_LONG.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_9f3d5.dir/HAVE_LONG_LONG.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mZt7qC/HAVE_LONG_LONG.c
+        Linking C executable cmTC_9f3d5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9f3d5.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_9f3d5.dir/HAVE_LONG_LONG.c.o -o cmTC_9f3d5
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-mZt7qC'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:127 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QAkQmU"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QAkQmU"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_ALSA_ASOUNDLIB_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QAkQmU'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a8a54/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a8a54.dir/build.make CMakeFiles/cmTC_a8a54.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QAkQmU'
+        Building C object CMakeFiles/cmTC_a8a54.dir/HAVE_ALSA_ASOUNDLIB_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_a8a54.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QAkQmU/HAVE_ALSA_ASOUNDLIB_H.c
+        Linking C executable cmTC_a8a54
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a8a54.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_a8a54.dir/HAVE_ALSA_ASOUNDLIB_H.c.o -o cmTC_a8a54
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QAkQmU'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:128 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-r4K4s9"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-r4K4s9"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DLFCN_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-r4K4s9'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5bdb6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5bdb6.dir/build.make CMakeFiles/cmTC_5bdb6.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-r4K4s9'
+        Building C object CMakeFiles/cmTC_5bdb6.dir/HAVE_DLFCN_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_5bdb6.dir/HAVE_DLFCN_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-r4K4s9/HAVE_DLFCN_H.c
+        Linking C executable cmTC_5bdb6
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5bdb6.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_5bdb6.dir/HAVE_DLFCN_H.c.o -o cmTC_5bdb6
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-r4K4s9'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:129 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-esNkZA"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-esNkZA"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_GL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-esNkZA'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_67ebd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_67ebd.dir/build.make CMakeFiles/cmTC_67ebd.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-esNkZA'
+        Building C object CMakeFiles/cmTC_67ebd.dir/HAVE_GL_GLU_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_67ebd.dir/HAVE_GL_GLU_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-esNkZA/HAVE_GL_GLU_H.c
+        Linking C executable cmTC_67ebd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_67ebd.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_67ebd.dir/HAVE_GL_GLU_H.c.o -o cmTC_67ebd
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-esNkZA'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:130 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-Bqq8LS"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-Bqq8LS"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_LOCALE_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-Bqq8LS'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ecbbd/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ecbbd.dir/build.make CMakeFiles/cmTC_ecbbd.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-Bqq8LS'
+        Building C object CMakeFiles/cmTC_ecbbd.dir/HAVE_LOCALE_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_ecbbd.dir/HAVE_LOCALE_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-Bqq8LS/HAVE_LOCALE_H.c
+        Linking C executable cmTC_ecbbd
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ecbbd.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_ecbbd.dir/HAVE_LOCALE_H.c.o -o cmTC_ecbbd
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-Bqq8LS'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:131 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pAG1Pq"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pAG1Pq"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_OPENGL_GLU_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pAG1Pq'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_f6a89/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_f6a89.dir/build.make CMakeFiles/cmTC_f6a89.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pAG1Pq'
+        Building C object CMakeFiles/cmTC_f6a89.dir/HAVE_OPENGL_GLU_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_f6a89.dir/HAVE_OPENGL_GLU_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pAG1Pq/HAVE_OPENGL_GLU_H.c
+        /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pAG1Pq/HAVE_OPENGL_GLU_H.c:2:10: fatal error: OpenGL/glu.h: No such file or directory
+            2 | #include <OpenGL/glu.h>
+              |          ^~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_f6a89.dir/build.make:81: CMakeFiles/cmTC_f6a89.dir/HAVE_OPENGL_GLU_H.c.o] Error 1
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-pAG1Pq'
+        gmake: *** [Makefile:134: cmTC_f6a89/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:132 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-2wlnVh"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-2wlnVh"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STDIO_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-2wlnVh'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_cd034/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_cd034.dir/build.make CMakeFiles/cmTC_cd034.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-2wlnVh'
+        Building C object CMakeFiles/cmTC_cd034.dir/HAVE_STDIO_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_cd034.dir/HAVE_STDIO_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-2wlnVh/HAVE_STDIO_H.c
+        Linking C executable cmTC_cd034
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd034.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_cd034.dir/HAVE_STDIO_H.c.o -o cmTC_cd034
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-2wlnVh'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:133 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-7f78My"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-7f78My"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRINGS_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-7f78My'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_24684/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_24684.dir/build.make CMakeFiles/cmTC_24684.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-7f78My'
+        Building C object CMakeFiles/cmTC_24684.dir/HAVE_STRINGS_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_24684.dir/HAVE_STRINGS_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-7f78My/HAVE_STRINGS_H.c
+        Linking C executable cmTC_24684
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24684.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_24684.dir/HAVE_STRINGS_H.c.o -o cmTC_24684
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-7f78My'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:134 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-GtToiH"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-GtToiH"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_SELECT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-GtToiH'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_87885/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_87885.dir/build.make CMakeFiles/cmTC_87885.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-GtToiH'
+        Building C object CMakeFiles/cmTC_87885.dir/HAVE_SYS_SELECT_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_87885.dir/HAVE_SYS_SELECT_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-GtToiH/HAVE_SYS_SELECT_H.c
+        Linking C executable cmTC_87885
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87885.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_87885.dir/HAVE_SYS_SELECT_H.c.o -o cmTC_87885
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-GtToiH'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:135 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-oqXikQ"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-oqXikQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SYS_STDTYPES_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-oqXikQ'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_26600/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_26600.dir/build.make CMakeFiles/cmTC_26600.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-oqXikQ'
+        Building C object CMakeFiles/cmTC_26600.dir/HAVE_SYS_STDTYPES_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_26600.dir/HAVE_SYS_STDTYPES_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-oqXikQ/HAVE_SYS_STDTYPES_H.c
+        /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-oqXikQ/HAVE_SYS_STDTYPES_H.c:2:10: fatal error: sys/stdtypes.h: No such file or directory
+            2 | #include <sys/stdtypes.h>
+              |          ^~~~~~~~~~~~~~~~
+        compilation terminated.
+        gmake[1]: *** [CMakeFiles/cmTC_26600.dir/build.make:81: CMakeFiles/cmTC_26600.dir/HAVE_SYS_STDTYPES_H.c.o] Error 1
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-oqXikQ'
+        gmake: *** [Makefile:134: cmTC_26600/fast] Error 2
+        
+      exitCode: 2
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:137 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-y9OiRY"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-y9OiRY"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_X11_XREGION_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-y9OiRY'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ebe98/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ebe98.dir/build.make CMakeFiles/cmTC_ebe98.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-y9OiRY'
+        Building C object CMakeFiles/cmTC_ebe98.dir/HAVE_X11_XREGION_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_ebe98.dir/HAVE_X11_XREGION_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-y9OiRY/HAVE_X11_XREGION_H.c
+        Linking C executable cmTC_ebe98
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ebe98.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_ebe98.dir/HAVE_X11_XREGION_H.c.o -o cmTC_ebe98
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-y9OiRY'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:143 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-OlSG44"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-OlSG44"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-OlSG44'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ab8c0/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ab8c0.dir/build.make CMakeFiles/cmTC_ab8c0.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-OlSG44'
+        Building C object CMakeFiles/cmTC_ab8c0.dir/HAVE_PTHREAD_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_ab8c0.dir/HAVE_PTHREAD_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-OlSG44/HAVE_PTHREAD_H.c
+        Linking C executable cmTC_ab8c0
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab8c0.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_ab8c0.dir/HAVE_PTHREAD_H.c.o -o cmTC_ab8c0
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-OlSG44'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "fltk/CMake/resources.cmake:149 (try_compile)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_PTHREAD_MUTEX_RECURSIVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_c3256/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_c3256.dir/build.make CMakeFiles/cmTC_c3256.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp'
+        Building C object CMakeFiles/cmTC_c3256.dir/pthread_mutex_recursive.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_c3256.dir/pthread_mutex_recursive.c.o -c /home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake/pthread_mutex_recursive.c
+        Linking C executable cmTC_c3256
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c3256.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_c3256.dir/pthread_mutex_recursive.c.o -o cmTC_c3256
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckIncludeFiles.cmake:141 (try_compile)"
+      - "fltk/CMake/resources.cmake:34 (check_include_files)"
+      - "fltk/CMake/resources.cmake:190 (fl_find_header)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-J0AJ6X"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-J0AJ6X"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DIRENT_H"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-J0AJ6X'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9cf1c/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9cf1c.dir/build.make CMakeFiles/cmTC_9cf1c.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-J0AJ6X'
+        Building C object CMakeFiles/cmTC_9cf1c.dir/HAVE_DIRENT_H.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_9cf1c.dir/HAVE_DIRENT_H.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-J0AJ6X/HAVE_DIRENT_H.c
+        Linking C executable cmTC_9cf1c
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9cf1c.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_9cf1c.dir/HAVE_DIRENT_H.c.o -o cmTC_9cf1c
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-J0AJ6X'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:257 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-5ZCXgy"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-5ZCXgy"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_DLSYM"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-5ZCXgy'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ad550/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ad550.dir/build.make CMakeFiles/cmTC_ad550.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-5ZCXgy'
+        Building C object CMakeFiles/cmTC_ad550.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_ad550.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-5ZCXgy/CheckSymbolExists.c
+        Linking C executable cmTC_ad550
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad550.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_ad550.dir/CheckSymbolExists.c.o -o cmTC_ad550  -ldl
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-5ZCXgy'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:260 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-RfQGUn"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-RfQGUn"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_LOCALECONV"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-RfQGUn'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_9dd28/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_9dd28.dir/build.make CMakeFiles/cmTC_9dd28.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-RfQGUn'
+        Building C object CMakeFiles/cmTC_9dd28.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_9dd28.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-RfQGUn/CheckSymbolExists.c
+        Linking C executable cmTC_9dd28
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9dd28.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_9dd28.dir/CheckSymbolExists.c.o -o cmTC_9dd28
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-RfQGUn'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:269 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-3HTsqp"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-3HTsqp"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SCANDIR"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-3HTsqp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_36907/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_36907.dir/build.make CMakeFiles/cmTC_36907.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-3HTsqp'
+        Building C object CMakeFiles/cmTC_36907.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_36907.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-3HTsqp/CheckSymbolExists.c
+        Linking C executable cmTC_36907
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_36907.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_36907.dir/CheckSymbolExists.c.o -o cmTC_36907
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-3HTsqp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:270 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1iw4kM"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1iw4kM"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1iw4kM'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_61b80/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_61b80.dir/build.make CMakeFiles/cmTC_61b80.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1iw4kM'
+        Building C object CMakeFiles/cmTC_61b80.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_61b80.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1iw4kM/CheckSymbolExists.c
+        Linking C executable cmTC_61b80
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_61b80.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_61b80.dir/CheckSymbolExists.c.o -o cmTC_61b80
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1iw4kM'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:277 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1IG2eO"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1IG2eO"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRCASECMP"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1IG2eO'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_12fcc/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_12fcc.dir/build.make CMakeFiles/cmTC_12fcc.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1IG2eO'
+        Building C object CMakeFiles/cmTC_12fcc.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_12fcc.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1IG2eO/CheckSymbolExists.c
+        Linking C executable cmTC_12fcc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_12fcc.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_12fcc.dir/CheckSymbolExists.c.o -o cmTC_12fcc
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-1IG2eO'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:279 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wNuKTm"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wNuKTm"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRLCAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wNuKTm'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_046e4/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_046e4.dir/build.make CMakeFiles/cmTC_046e4.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wNuKTm'
+        Building C object CMakeFiles/cmTC_046e4.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_046e4.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wNuKTm/CheckSymbolExists.c
+        Linking C executable cmTC_046e4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_046e4.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_046e4.dir/CheckSymbolExists.c.o -o cmTC_046e4
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-wNuKTm'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:280 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-rf9V1r"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-rf9V1r"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_STRLCPY"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-rf9V1r'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4579d/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4579d.dir/build.make CMakeFiles/cmTC_4579d.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-rf9V1r'
+        Building C object CMakeFiles/cmTC_4579d.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_4579d.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-rf9V1r/CheckSymbolExists.c
+        Linking C executable cmTC_4579d
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4579d.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_4579d.dir/CheckSymbolExists.c.o -o cmTC_4579d
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-rf9V1r'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:281 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-qOKg9Q"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-qOKg9Q"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_VSNPRINTF"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-qOKg9Q'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_45931/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_45931.dir/build.make CMakeFiles/cmTC_45931.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-qOKg9Q'
+        Building C object CMakeFiles/cmTC_45931.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_45931.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-qOKg9Q/CheckSymbolExists.c
+        Linking C executable cmTC_45931
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_45931.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_45931.dir/CheckSymbolExists.c.o -o cmTC_45931
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-qOKg9Q'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:283 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-VLi1Uk"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-VLi1Uk"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_SETENV"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-VLi1Uk'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ad4ad/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ad4ad.dir/build.make CMakeFiles/cmTC_ad4ad.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-VLi1Uk'
+        Building C object CMakeFiles/cmTC_ad4ad.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_ad4ad.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-VLi1Uk/CheckSymbolExists.c
+        Linking C executable cmTC_ad4ad
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad4ad.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_ad4ad.dir/CheckSymbolExists.c.o -o cmTC_ad4ad
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-VLi1Uk'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:163 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckSymbolExists.cmake:68 (__CHECK_SYMBOL_EXISTS_IMPL)"
+      - "fltk/CMake/resources.cmake:290 (check_symbol_exists)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vDeELV"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vDeELV"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "HAVE_TRUNC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vDeELV'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_bbfb2/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_bbfb2.dir/build.make CMakeFiles/cmTC_bbfb2.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vDeELV'
+        Building C object CMakeFiles/cmTC_bbfb2.dir/CheckSymbolExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_bbfb2.dir/CheckSymbolExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vDeELV/CheckSymbolExists.c
+        Linking C executable cmTC_bbfb2
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbfb2.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_bbfb2.dir/CheckSymbolExists.c.o -o cmTC_bbfb2  -lm
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vDeELV'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "fltk/CMake/resources.cmake:297 (try_compile)"
+      - "fltk/CMakeLists.txt:73 (include)"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -fno-exceptions"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "V"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_08d16/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_08d16.dir/build.make CMakeFiles/cmTC_08d16.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp'
+        Building CXX object CMakeFiles/cmTC_08d16.dir/posixScandir.cxx.o
+        /usr/bin/c++   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -fno-exceptions  -o CMakeFiles/cmTC_08d16.dir/posixScandir.cxx.o -c /home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake/posixScandir.cxx
+        Linking CXX executable cmTC_08d16
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_08d16.dir/link.txt --verbose=1
+        /usr/bin/c++  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -fno-exceptions  CMakeFiles/cmTC_08d16.dir/posixScandir.cxx.o -o cmTC_08d16
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/fltk/CMakeFiles/CMakeTmp'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:693 (check_library_exists)"
+      - "fltk/CMake/options.cmake:401 (include)"
+      - "fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-6vnxbe"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-6vnxbe"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "X11_LIB_X11_SOLO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-6vnxbe'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_226f5/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_226f5.dir/build.make CMakeFiles/cmTC_226f5.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-6vnxbe'
+        Building C object CMakeFiles/cmTC_226f5.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=XOpenDisplay -o CMakeFiles/cmTC_226f5.dir/CheckFunctionExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-6vnxbe/CheckFunctionExists.c
+        Linking C executable cmTC_226f5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_226f5.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=XOpenDisplay CMakeFiles/cmTC_226f5.dir/CheckFunctionExists.c.o -o cmTC_226f5  /usr/lib/x86_64-linux-gnu/libX11.so /usr/lib/x86_64-linux-gnu/libXext.so
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-6vnxbe'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:708 (check_function_exists)"
+      - "fltk/CMake/options.cmake:401 (include)"
+      - "fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for gethostbyname"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-tphlo2"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-tphlo2"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_GETHOSTBYNAME"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-tphlo2'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_3bd72/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_3bd72.dir/build.make CMakeFiles/cmTC_3bd72.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-tphlo2'
+        Building C object CMakeFiles/cmTC_3bd72.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=gethostbyname -o CMakeFiles/cmTC_3bd72.dir/CheckFunctionExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-tphlo2/CheckFunctionExists.c
+        Linking C executable cmTC_3bd72
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3bd72.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=gethostbyname CMakeFiles/cmTC_3bd72.dir/CheckFunctionExists.c.o -o cmTC_3bd72
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-tphlo2'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:722 (check_function_exists)"
+      - "fltk/CMake/options.cmake:401 (include)"
+      - "fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for connect"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-lgbA5a"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-lgbA5a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_CONNECT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-lgbA5a'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a5709/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a5709.dir/build.make CMakeFiles/cmTC_a5709.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-lgbA5a'
+        Building C object CMakeFiles/cmTC_a5709.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=connect -o CMakeFiles/cmTC_a5709.dir/CheckFunctionExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-lgbA5a/CheckFunctionExists.c
+        Linking C executable cmTC_a5709
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5709.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=connect CMakeFiles/cmTC_a5709.dir/CheckFunctionExists.c.o -o cmTC_a5709
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-lgbA5a'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:731 (check_function_exists)"
+      - "fltk/CMake/options.cmake:401 (include)"
+      - "fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for remove"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-gJfteG"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-gJfteG"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_REMOVE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-gJfteG'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_5dc7e/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_5dc7e.dir/build.make CMakeFiles/cmTC_5dc7e.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-gJfteG'
+        Building C object CMakeFiles/cmTC_5dc7e.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=remove -o CMakeFiles/cmTC_5dc7e.dir/CheckFunctionExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-gJfteG/CheckFunctionExists.c
+        Linking C executable cmTC_5dc7e
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5dc7e.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=remove CMakeFiles/cmTC_5dc7e.dir/CheckFunctionExists.c.o -o cmTC_5dc7e
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-gJfteG'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckFunctionExists.cmake:93 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:740 (check_function_exists)"
+      - "fltk/CMake/options.cmake:401 (include)"
+      - "fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for shmat"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QRiqbv"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QRiqbv"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_SHMAT"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QRiqbv'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_a748b/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_a748b.dir/build.make CMakeFiles/cmTC_a748b.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QRiqbv'
+        Building C object CMakeFiles/cmTC_a748b.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=shmat -o CMakeFiles/cmTC_a748b.dir/CheckFunctionExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QRiqbv/CheckFunctionExists.c
+        Linking C executable cmTC_a748b
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a748b.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=shmat CMakeFiles/cmTC_a748b.dir/CheckFunctionExists.c.o -o cmTC_a748b
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-QRiqbv'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/CheckLibraryExists.cmake:78 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/FindX11.cmake:750 (check_library_exists)"
+      - "fltk/CMake/options.cmake:401 (include)"
+      - "fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Looking for IceConnectionNumber in ICE"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vpqCw3"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vpqCw3"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_LIB_ICE_HAS_ICECONNECTIONNUMBER"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vpqCw3'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ad276/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ad276.dir/build.make CMakeFiles/cmTC_ad276.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vpqCw3'
+        Building C object CMakeFiles/cmTC_ad276.dir/CheckFunctionExists.c.o
+        /usr/bin/cc   -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=IceConnectionNumber -o CMakeFiles/cmTC_ad276.dir/CheckFunctionExists.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vpqCw3/CheckFunctionExists.c
+        Linking C executable cmTC_ad276
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ad276.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w -DCHECK_FUNCTION_EXISTS=IceConnectionNumber CMakeFiles/cmTC_ad276.dir/CheckFunctionExists.c.o -o cmTC_ad276  -lICE
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-vpqCw3'
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/share/cmake-3.31/Modules/Internal/CheckSourceCompiles.cmake:108 (try_compile)"
+      - "/usr/share/cmake-3.31/Modules/CheckCSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/share/cmake-3.31/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/usr/share/cmake-3.31/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "fltk/CMake/options.cmake:747 (include)"
+      - "fltk/CMakeLists.txt:78 (include)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-8xnRez"
+      binary: "/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-8xnRez"
+    cmakeVariables:
+      CMAKE_C_FLAGS: " -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/home/pasteb/.cargo/registry/src/index.crates.io-1949cf8c6b5b557f/fltk-sys-1.5.24/cfltk/fltk/CMake"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-8xnRez'
+        
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_620a3/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_620a3.dir/build.make CMakeFiles/cmTC_620a3.dir/build
+        gmake[1]: Entering directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-8xnRez'
+        Building C object CMakeFiles/cmTC_620a3.dir/src.c.o
+        /usr/bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  -o CMakeFiles/cmTC_620a3.dir/src.c.o -c /home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-8xnRez/src.c
+        Linking C executable cmTC_620a3
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_620a3.dir/link.txt --verbose=1
+        /usr/bin/cc  -ffunction-sections -fdata-sections -fPIC -m64 -march=x86-64 -w  CMakeFiles/cmTC_620a3.dir/src.c.o -o cmTC_620a3
+        gmake[1]: Leaving directory '/home/pasteb/Documents/FastMeme/fastmeme/target/debug/build/fltk-sys-d0086255c73e8b93/out/build/CMakeFiles/CMakeScratch/TryCompile-8xnRez'
+        
+      exitCode: 0
+...
